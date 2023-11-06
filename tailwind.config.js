@@ -24,6 +24,9 @@ module.exports = {
         'blue-primary': '#1D4FFE',
         'green-primary': '#4BCE97',
       },
+      maxWidth: {
+        grid: '77.5rem',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },
