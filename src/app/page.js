@@ -1,5 +1,8 @@
+import CardNft from "@/components/CardNft";
+import Container from "@/components/Container";
+
 export default function Home() {
   return (
-    <h1 className="font-poppins">Font Poppins</h1>
+    <Container><CardNft /></Container>
   )
 }
