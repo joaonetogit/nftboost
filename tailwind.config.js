@@ -46,6 +46,7 @@ module.exports = {
         'area-image-nft': '14.7rem',
         'area-cards-mobile': '15.3rem',
         'area-cards-desktop': '26.6rem',
+        'area-banner': '29.5rem',
       },
       keyframes: {
         "accordion-down": {
@@ -63,6 +64,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': 'url("/bg-hero.svg")',
+        'banner': 'url("/bg-banner.svg")',
       }
     },
   },
