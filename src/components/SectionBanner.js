@@ -13,7 +13,7 @@ export default function SectionBanner() {
     <section>
       <Container>
         <div className="w-full bg-cover bg-banner bg-no-repeat flex flex-col items-center justify-center py-10 px-2 text-center rounded-xl @laptop:h-area-banner @laptop:p-0">
-          <h2 class="mb-4 max-w-4xl text-4xl text-white font-semibold font-poppins @laptop:text-6xl/tight">Abra as Portas para a Próxima Revolução Digital!</h2>
+          <h2 className="mb-4 max-w-4xl text-4xl text-white font-semibold font-poppins @laptop:text-6xl/tight">Abra as Portas para a Próxima Revolução Digital!</h2>
           <p className="text-base max-w-xl mb-6 @laptop:text-xl">
             Descubra, Adquira e Possua os NFTs Mais Valiosos do Universo Digital. Sua Oportunidade, Sua História
           </p>

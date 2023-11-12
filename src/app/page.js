@@ -8,6 +8,7 @@ import { cardsHighlights } from '@/constants/SliderHighlights';
 import { cardsTendencies } from '@/constants/SliderTendencies';
 import SectionCollectors from "@/components/SectionCollectors";
 import SectionBanner from "@/components/SectionBanner";
+import SectionFAQ from "@/components/SectionFAQ";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         data={cardsTendencies}
       />
       <SectionBanner />
+      <SectionFAQ />
     </>
   )
 }
