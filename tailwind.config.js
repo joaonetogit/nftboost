@@ -30,6 +30,7 @@ module.exports = {
         'green-primary': '#4BCE97',
         'gray-border-card': '#131317',
         'gray-area-favorite': '#05040A',
+        'btn-slide': '#07050f',
       },
       maxWidth: {
         logo: '10rem',
