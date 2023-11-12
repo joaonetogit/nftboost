@@ -36,6 +36,7 @@ module.exports = {
         grid: '77.5rem',
         'card-nft': '17.4rem',
         'card-collector': '37rem',
+        'footer-content': '20.2rem',
       },
       height: {
         'area-image-nft': '14.7rem',
