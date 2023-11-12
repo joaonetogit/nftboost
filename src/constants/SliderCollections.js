@@ -6,51 +6,59 @@ import Thumb04 from 'public/img-nft/04.jpg';
 
 export const cardsCollections = [
   {
-    name: 'Cat #221',
+    likeFavorites: Math.floor(Math.random() * 100) + 1,
+    name: `Cat #${Math.floor(Math.random() * 900) + 100}`,
     thumbnail: Thumb01,
     valueBrl: '602,02',
-    valueBtc: '0.0721',
+    valueBtc: Math.round(Math.random() * 1000) / 10000
   },
   {
-    name: 'Snike #2331',
+    likeFavorites: Math.floor(Math.random() * 100) + 1,
+    name: `Snike #${Math.floor(Math.random() * 900) + 100}`,
     thumbnail: Thumb02,
     valueBrl: '602,03',
-    valueBtc: '0.0722',
+    valueBtc: Math.round(Math.random() * 1000) / 10000
   },
   {
-    name: 'Skull Hatter #2311',
+    likeFavorites: Math.floor(Math.random() * 100) + 1,
+    name: `Hatter #${Math.floor(Math.random() * 900) + 100}`,
     thumbnail: Thumb03,
     valueBrl: '602,04',
-    valueBtc: '0.0723',
+    valueBtc: Math.round(Math.random() * 1000) / 10000
   },
   {
-    name: 'Nox #2611',
+    likeFavorites: Math.floor(Math.random() * 100) + 1,
+    name: `Sailor Skull #${Math.floor(Math.random() * 900) + 100}`,
     thumbnail: Thumb04,
     valueBrl: '602,05',
-    valueBtc: '0.0724',
+    valueBtc: Math.round(Math.random() * 1000) / 10000
   },
   {
-    name: 'Cat #221',
+    likeFavorites: Math.floor(Math.random() * 100) + 1,
+    name: `Sailor Cat #${Math.floor(Math.random() * 900) + 100}`,
     thumbnail: Thumb01,
     valueBrl: '602,02',
-    valueBtc: '0.0721',
+    valueBtc: Math.round(Math.random() * 1000) / 10000
   },
   {
-    name: 'Snike #2331',
+    likeFavorites: Math.floor(Math.random() * 100) + 1,
+    name: `Cat #${Math.floor(Math.random() * 900) + 100}`,
     thumbnail: Thumb02,
     valueBrl: '602,03',
-    valueBtc: '0.0722',
+    valueBtc: Math.round(Math.random() * 1000) / 10000
   },
   {
-    name: 'Skull Hatter #2311',
+    likeFavorites: Math.floor(Math.random() * 100) + 1,
+    name: `Borey #${Math.floor(Math.random() * 900) + 100}`,
     thumbnail: Thumb03,
     valueBrl: '602,04',
-    valueBtc: '0.0723',
+    valueBtc: Math.round(Math.random() * 1000) / 10000
   },
   {
-    name: 'Nox #2611',
+    likeFavorites: Math.floor(Math.random() * 100) + 1,
+    name: `Sniper #${Math.floor(Math.random() * 900) + 100}`,
     thumbnail: Thumb04,
     valueBrl: '602,05',
-    valueBtc: '0.0724',
+    valueBtc: Math.round(Math.random() * 1000) / 10000
   },
 ]

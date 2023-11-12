@@ -6,6 +6,7 @@ import SectionCarrousel from "@/components/SectionCarrousel";
 import { cardsCollections } from '@/constants/SliderCollections';
 import { cardsHighlights } from '@/constants/SliderHighlights';
 import { cardsTendencies } from '@/constants/SliderTendencies';
+import SectionCollectors from "@/components/SectionCollectors";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
         title='Destaque do Mês'
         data={cardsHighlights}
       />
+      <hr className="border-t border-white border-opacity-5 max-w-grid mx-auto" />
+      <SectionCollectors />
       <hr className="border-t border-white border-opacity-5 max-w-grid mx-auto" />
       <SectionCarrousel
         subtitle='Em Tendência'

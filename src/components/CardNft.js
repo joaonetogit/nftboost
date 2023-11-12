@@ -7,14 +7,14 @@ import IconVerify from 'public/verify.svg'
 import IconETH from 'public/icon-eth.svg'
 import IconTime from 'public/icon-clock.svg'
 
-export default function CardNft({ thumbnail, name, valueBrl, valueBtc, }) {
+export default function CardNft({ likeFavorites, thumbnail, name, valueBrl, valueBtc, }) {
   return (
     <div className='w-full max-w-card-nft overflow-hidden rounded-3xl border border-gray-border-card bg-gray-area-favorite'>
       <div className='w-full h-area-image-nft overflow-hidden relative'>
         <Image src={thumbnail} alt='Imagem NFT' className='w-full h-full object-cover' />
         <div className='hover:cursor-pointer absolute top-2 right-2 z-10 flex items-center gap-2 py-3 px-6 bg-gray-area-favorite rounded-full border border-gray-border-card'>
           <Image src={IconHeart} alt='Icon Heart' />
-          <small>0</small>
+          <small>{likeFavorites}</small>
         </div>
       </div>
       <div className='w-full p-4'>
