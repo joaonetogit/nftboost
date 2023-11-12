@@ -32,6 +32,7 @@ module.exports = {
         'gray-area-favorite': '#05040A',
       },
       maxWidth: {
+        logo: '10rem',
         grid: '77.5rem',
         'card-nft': '17.4rem',
         'card-collector': '37rem',
