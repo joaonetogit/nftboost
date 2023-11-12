@@ -1,6 +1,3 @@
-// Core
-import React from 'react'
-
 export default function TitleSection({ subtitle, title }) {
   return (
     <div className='mb-14 space-y-1'>

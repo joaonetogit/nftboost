@@ -1,7 +1,7 @@
 // Core
 import Image from 'next/image'
 
-// Images
+// Medias
 import IconVerify from 'public/verify.svg'
 import IconETH from 'public/icon-eth.svg'
 

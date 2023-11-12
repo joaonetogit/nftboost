@@ -38,8 +38,13 @@ module.exports = {
         'card-collector': '37rem',
         'footer-content': '20.2rem',
       },
+      width: {
+        'area-cards-mobile': '43.7rem',
+      },
       height: {
         'area-image-nft': '14.7rem',
+        'area-cards-mobile': '15.3rem',
+        'area-cards-desktop': '26.6rem',
       },
       keyframes: {
         "accordion-down": {
@@ -55,6 +60,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        'hero-pattern': 'url("/bg-hero.svg")',
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

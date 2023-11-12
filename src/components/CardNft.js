@@ -1,8 +1,7 @@
 // Core
-import React from 'react'
 import Image from 'next/image'
 
-// Images
+// Medias
 import IconHeart from 'public/icon-heart.svg'
 import IconVerify from 'public/verify.svg'
 import IconETH from 'public/icon-eth.svg'

@@ -1,6 +1,3 @@
-// Core
-import React from 'react'
-
 // Libraries
 import { twMerge } from 'tailwind-merge'
 

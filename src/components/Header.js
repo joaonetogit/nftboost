@@ -14,7 +14,7 @@ import IconHamburguer from 'public/icon-hamburger.svg'
 
 export default function Header() {
   return (
-    <header className="py-6 @laptop:">
+    <header className="absolute top-0 left-0 w-full py-6 @laptop:">
       <Container className='flex items-center justify-between'>
         <Image src={Logo} alt="Logo" className="max-w-logo" />
         <nav className="hidden @laptop:flex items-center gap-12">
