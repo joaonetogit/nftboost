@@ -9,14 +9,26 @@ const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '700'], 
 
 const poppins = Poppins({ subsets: ['latin'], weight: '600', display: 'swap', variable: '--font-poppins' })
 
+export const openGraphImage = { images: ['/logo.svg'] }
+
 export const metadata = {
-  title: 'NFTBoost',
-  description: 'Projeto do curso Codeboost',
+  title: 'NFTBoost - Projeto do curso Codeboost',
+  description: 'Projeto desenvolvido no módulo de NextJS 13, com TailwindCSS e ShadcnUI',
+  openGraph: {
+    ...openGraphImage,
+    title: 'NFTBoost - Projeto do curso Codeboost',
+    description: 'João Pinheiro - Projeto desenvolvido no módulo de NextJS 13, com TailwindCSS e ShadcnUI',
+    type: 'website',
+    url: 'https://github.com/joaonetogit',
+    siteName: 'NFTBoost',
+    locale: 'pt-BR',
+  },
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
+      <link rel="icon" href="/icon-boost.svg" sizes="any" />
       <body className={`${inter.variable} ${poppins.variable}`}>
         <Header />
         {children}
