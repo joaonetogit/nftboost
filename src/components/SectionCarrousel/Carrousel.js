@@ -1,6 +1,7 @@
 'use client'
 
 // Core
+import { useRef } from 'react';
 import Image from 'next/image';
 
 // Libraries
@@ -13,7 +14,6 @@ import IconArrow from 'public/arrow.svg';
 
 // Components
 import CardNft from '../CardNft';
-import { useRef } from 'react';
 
 export default function Carrousel({ data }) {
   const buttonClasses = 'hidden @laptop:flex absolute top-1/2 -translate-y-1/2 bg-blue-primary hover:bg-btn-slide border border-white border-opacity-5 transition-all ease-linear flex items-center justify-center z-10 w-12 h-12 rounded-full'

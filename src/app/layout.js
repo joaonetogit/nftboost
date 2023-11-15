@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '700'], 
 
 const poppins = Poppins({ subsets: ['latin'], weight: '600', display: 'swap', variable: '--font-poppins' })
 
-export const openGraphImage = { images: ['/logo.svg'] }
+export const openGraphImage = { images: ['https://nftboost-joao.vercel.app/logo.svg'] }
 
 export const metadata = {
   title: 'NFTBoost - Projeto do curso Codeboost',

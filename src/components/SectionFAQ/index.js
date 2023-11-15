@@ -1,5 +1,7 @@
-// Components
+// Constants
 import { questions } from "@/constants/FAQ";
+
+// Components
 import Container from "../Container";
 import TitleSection from "../TitleSection";
 import {

@@ -1,11 +1,11 @@
-// Components
-import SectionHero from "@/components/SectionHero";
-import SectionCarrousel from "@/components/SectionCarrousel";
-
 // Constants
 import { cardsCollections } from '@/constants/SliderCollections';
 import { cardsHighlights } from '@/constants/SliderHighlights';
 import { cardsTendencies } from '@/constants/SliderTendencies';
+
+// Components
+import SectionHero from "@/components/SectionHero";
+import SectionCarrousel from "@/components/SectionCarrousel";
 import SectionCollectors from "@/components/SectionCollectors";
 import SectionBanner from "@/components/SectionBanner";
 import SectionFAQ from "@/components/SectionFAQ";

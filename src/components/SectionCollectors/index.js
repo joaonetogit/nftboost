@@ -6,7 +6,6 @@ import Container from "../Container";
 import TitleSection from "../TitleSection";
 import CardCollector from "../CardCollector";
 
-
 export default function SectionCollectors() {
   // Divida o array de cards em duas partes
   const halfIndex = Math.ceil(cardsCollectors.length / 2);

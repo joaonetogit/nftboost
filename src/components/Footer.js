@@ -1,5 +1,6 @@
 // Core
 import Image from 'next/image';
+import Link from 'next/link';
 
 // Constants
 import { footerNav } from '@/constants/Footer';
@@ -9,7 +10,6 @@ import Logo from 'public/logo.svg'
 
 // Components
 import Container from "./Container";
-import Link from 'next/link';
 
 export default function Footer() {
   return (
