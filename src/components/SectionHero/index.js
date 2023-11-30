@@ -1,5 +1,9 @@
 // Core
+import { useRef } from "react";
 import Image from "next/image";
+
+// Libraries
+import gsap from 'gsap';
 
 // Components
 import Container from "../Container";
@@ -13,6 +17,13 @@ import GooglePlay from 'public/google.svg'
 import AppleStore from 'public/apple.svg'
 
 export default function SectionHero() {
+  const subtitleRef = useRef(null);
+  const titleRef = useRef(null);
+  const textRef = useRef(null);
+  const storesRef = useRef(null);
+  const imagesLeftRef = useRef(null);
+  const imagesRightRef = useRef(null);
+
   return (
     <section className="pt-36 bg-hero-pattern bg-no-repeat bg-top overflow-hidden">
       <Container className='flex flex-col items-center'>
