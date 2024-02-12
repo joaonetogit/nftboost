@@ -2,16 +2,16 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   theme: {
     screens: {
-      '@tablet': '640px',
-      '@laptop': '1024px',
-      '@desktop': '1280px',
+      "@tablet": "640px",
+      "@laptop": "1024px",
+      "@desktop": "1280px",
     },
     container: {
       center: true,
@@ -22,31 +22,31 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        inter: ['var(--font-inter)'],
-        poppins: ['var(--font-poppins)'],
+        inter: ["var(--font-inter)"],
+        poppins: ["var(--font-poppins)"],
       },
       colors: {
-        'blue-primary': '#1D4FFE',
-        'green-primary': '#4BCE97',
-        'gray-border-card': '#131317',
-        'gray-area-favorite': '#05040A',
-        'btn-slide': '#07050f',
+        "blue-primary": "#1D4FFE",
+        "green-primary": "#4BCE97",
+        "gray-border-card": "#131317",
+        "gray-area-favorite": "#05040A",
+        "btn-slide": "#07050f",
       },
       maxWidth: {
-        logo: '10rem',
-        grid: '77.5rem',
-        'card-nft': '17.4rem',
-        'card-collector': '37rem',
-        'footer-content': '20.2rem',
+        logo: "10rem",
+        grid: "77.5rem",
+        "card-nft": "17.4rem",
+        "card-collector": "37rem",
+        "footer-content": "20.2rem",
       },
       width: {
-        'area-cards-mobile': '43.7rem',
+        "area-cards-mobile": "43.7rem",
       },
       height: {
-        'area-image-nft': '14.7rem',
-        'area-cards-mobile': '15.3rem',
-        'area-cards-desktop': '26.6rem',
-        'area-banner': '29.5rem',
+        "area-image-nft": "14.7rem",
+        "area-cards-mobile": "15.3rem",
+        "area-cards-desktop": "26.6rem",
+        "area-banner": "29.5rem",
       },
       keyframes: {
         "accordion-down": {
@@ -63,10 +63,10 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        'hero-pattern': 'url("/bg-hero.svg")',
-        'banner': 'url("/bg-banner.svg")',
-      }
+        "hero-pattern": 'url("/bg-hero.svg")',
+        banner: 'url("/bg-banner.svg")',
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

@@ -1,18 +1,18 @@
 export const navLinks = [
   {
-    label: 'Download',
-    href: '#',
+    label: "Download",
+    href: "#",
   },
   {
-    label: 'NFTs',
-    href: '#',
+    label: "NFTs",
+    href: "#",
   },
   {
-    label: 'Rank',
-    href: '#',
+    label: "Rank",
+    href: "#",
   },
   {
-    label: 'FAQ',
-    href: '#',
+    label: "FAQ",
+    href: "#",
   },
-]
+];

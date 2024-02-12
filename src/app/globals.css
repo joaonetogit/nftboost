@@ -3,10 +3,21 @@
 @tailwind utilities;
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   color: #ffffff;
-  -webkit-font-smoothing: antialiased;
 }
 
 html {
   background: linear-gradient(120deg, #03000c -14.45%, #020107 106.15%);
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }

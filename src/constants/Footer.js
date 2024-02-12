@@ -1,48 +1,48 @@
 export const footerNav = [
   {
-    title: 'NFT Boost®',
+    title: "NFT Boost®",
     items: [
       {
-        label: 'Download',
-        href: '#',
+        label: "Download",
+        href: "#",
       },
       {
-        label: 'NFTs',
-        href: '#',
+        label: "NFTs",
+        href: "#",
       },
       {
-        label: 'Rank',
-        href: '#',
+        label: "Rank",
+        href: "#",
       },
       {
-        label: 'FAQ',
-        href: '#',
+        label: "FAQ",
+        href: "#",
       },
-    ]
+    ],
   },
   {
-    title: 'Links importantes',
+    title: "Links importantes",
     items: [
       {
-        label: 'About us',
-        href: '#',
+        label: "About us",
+        href: "#",
       },
       {
-        label: 'Questions',
-        href: '#',
+        label: "Questions",
+        href: "#",
       },
       {
-        label: 'Press',
-        href: '#',
+        label: "Press",
+        href: "#",
       },
       {
-        label: 'Contact us',
-        href: '#',
+        label: "Contact us",
+        href: "#",
       },
       {
-        label: 'Legal',
-        href: '#',
+        label: "Legal",
+        href: "#",
       },
-    ]
+    ],
   },
-]
+];
