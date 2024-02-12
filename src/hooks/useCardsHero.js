@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -16,7 +16,6 @@ const useCardsHero = () => {
         start: "-=50% center",
         end: "bottom center",
         scrub: true,
-        markers: true,
       },
     });
 
