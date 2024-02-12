@@ -4,6 +4,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+import { patternAnimationTo } from "@/lib/utils";
+
 const useCardsHero = () => {
   const areaCards = useRef(null);
   const imageLeft = useRef(null);
@@ -18,12 +20,6 @@ const useCardsHero = () => {
         scrub: true,
       },
     });
-
-    const patternAnimationTo = {
-      opacity: 1,
-      duration: 1,
-      ease: "power3.out",
-    };
 
     tl.to(
       imageLeft.current,

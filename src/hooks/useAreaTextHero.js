@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import { patternAnimationTo } from "@/lib/utils";
 
 const useAreaTextHero = () => {
   const areaTextRef = useRef(null);
@@ -9,12 +10,6 @@ const useAreaTextHero = () => {
 
   useEffect(() => {
     const tl = gsap.timeline();
-
-    const patternAnimationTo = {
-      opacity: 1,
-      duration: 1,
-      ease: "power3.out",
-    };
 
     tl.fromTo(
       areaTextRef.current,

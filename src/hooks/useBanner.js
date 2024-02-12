@@ -5,12 +5,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 import { patternAnimationTo } from "@/lib/utils";
 
-const useCarrousel = () => {
-  const carrouselRef = useRef(null);
+const useBanner = () => {
+  const bannerRef = useRef(null);
+
 
   useEffect(() => {
     gsap.fromTo(
-      carrouselRef.current,
+      bannerRef.current,
       {
         opacity: 0,
         y: 100,
@@ -19,7 +20,7 @@ const useCarrousel = () => {
         y: 0,
         ...patternAnimationTo,
         scrollTrigger: {
-          trigger: carrouselRef.current,
+          trigger: bannerRef.current,
           start: "top-=300 center",
         },
       }
@@ -31,4 +32,4 @@ const useCarrousel = () => {
   };
 };
 
-export default useCarrousel;
+export default useBanner;

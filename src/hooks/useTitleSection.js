@@ -3,13 +3,10 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+import { patternAnimationTo } from "@/lib/utils";
+
 const useTitleSection = () => {
   const titleSectionRef = useRef(null);
-  const patternAnimationTo = {
-    opacity: 1,
-    duration: 1,
-    ease: "power3.out",
-  };
 
   useEffect(() => {
     gsap.fromTo(
