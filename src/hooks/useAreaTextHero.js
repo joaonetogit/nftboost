@@ -8,11 +8,6 @@ const useAreaTextHero = () => {
   const imageCircleRef = useRef(null);
 
   useEffect(() => {
-    const areaTextRefCurrent = areaTextRef.current;
-    const googleRefCurrent = googleRef.current;
-    const appleRefCurrent = appleRef.current;
-    const imageCircleRefCurrent = imageCircleRef.current;
-
     const tl = gsap.timeline();
 
     const patternAnimationTo = {
@@ -22,7 +17,7 @@ const useAreaTextHero = () => {
     };
 
     tl.fromTo(
-      areaTextRefCurrent,
+      areaTextRef.current,
       {
         opacity: 0,
         y: 100,
@@ -34,7 +29,7 @@ const useAreaTextHero = () => {
       "init",
     )
       .fromTo(
-        googleRefCurrent,
+        googleRef.current,
         {
           opacity: 0,
           x: -100,
@@ -43,9 +38,10 @@ const useAreaTextHero = () => {
           x: 0,
           ...patternAnimationTo,
         },
+        "-=1",
       )
       .fromTo(
-        appleRefCurrent,
+        appleRef.current,
         {
           opacity: 0,
           x: 100,
@@ -57,7 +53,7 @@ const useAreaTextHero = () => {
         "-=1",
       )
       .fromTo(
-        imageCircleRefCurrent,
+        imageCircleRef.current,
         {
           opacity: 0,
           xPercent: 90,
@@ -74,7 +70,7 @@ const useAreaTextHero = () => {
     areaTextRef,
     googleRef,
     appleRef,
-    imageCircleRef
+    imageCircleRef,
   };
 };
 

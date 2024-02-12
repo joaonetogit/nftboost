@@ -9,7 +9,7 @@ import nftDoubleSmall from "public/double-nft.png";
 import GooglePlay from "public/google.svg";
 import AppleStore from "public/apple.svg";
 
-import useAreaTextHero from "./useAreaTextHero";
+import useAreaTextHero from "@/hooks/useAreaTextHero";;
 
 const AreaTextHero = () => {
   const { imageCircleRef, areaTextRef, googleRef, appleRef } = useAreaTextHero();
