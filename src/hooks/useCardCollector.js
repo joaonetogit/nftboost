@@ -5,22 +5,21 @@ gsap.registerPlugin(ScrollTrigger);
 
 import { patternAnimationTo } from "@/lib/utils";
 
-const useBanner = () => {
-  const bannerRef = useRef(null);
+const useCardCollector = () => {
+  const cardRef = useRef(null);
 
   useEffect(() => {
     gsap.fromTo(
-      bannerRef.current,
+      cardRef.current,
       {
         opacity: 0,
-        scale: 0.8,
+        y: 100,
       },
       {
-        opacity: 1,
-        scale: 1,
+        y: 0,
         ...patternAnimationTo,
         scrollTrigger: {
-          trigger: bannerRef.current,
+          trigger: cardRef.current,
           start: "top-=300 center",
         },
       },
@@ -28,8 +27,8 @@ const useBanner = () => {
   }, []);
 
   return {
-    bannerRef,
+    cardRef,
   };
 };
 
-export default useBanner;
+export default useCardCollector;

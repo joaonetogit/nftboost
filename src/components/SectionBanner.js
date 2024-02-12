@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 import Container from "./Container";
@@ -5,11 +7,18 @@ import Container from "./Container";
 import GooglePlay from "public/google.svg";
 import AppleStore from "public/apple.svg";
 
+import useBanner from "@/hooks/useBanner";
+
 export default function SectionBanner() {
+  const { bannerRef } = useBanner();
+
   return (
     <section>
       <Container>
-        <div className="w-full bg-cover bg-banner bg-no-repeat flex flex-col items-center justify-center py-10 px-2 text-center rounded-xl @laptop:h-area-banner @laptop:p-0">
+        <div
+          className="w-full bg-cover bg-banner bg-no-repeat flex flex-col items-center justify-center py-10 px-2 text-center rounded-xl @laptop:h-area-banner @laptop:p-0"
+          ref={bannerRef}
+        >
           <h2 className="mb-4 max-w-4xl text-4xl text-white font-semibold font-poppins @laptop:text-6xl/tight">
             Abra as Portas para a Próxima Revolução Digital!
           </h2>

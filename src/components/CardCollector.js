@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 
 import IconVerify from "public/verify.svg";
 import IconETH from "public/icon-eth.svg";
+
+import useCardCollector from "@/hooks/useCardCollector";
 
 export default function CardCollector({
   index,
@@ -10,8 +14,12 @@ export default function CardCollector({
   valueBtc,
   percent,
 }) {
+  const { cardRef } = useCardCollector();
   return (
-    <div className="w-full max-w-card-collector bg-white bg-opacity-[0.01] py-4 px-6 flex items-center justify-between rounded-full border border-white border-opacity-5">
+    <div
+      className="w-full max-w-card-collector bg-white bg-opacity-[0.01] py-4 px-6 flex items-center justify-between rounded-full border border-white border-opacity-5"
+      ref={cardRef}
+    >
       <div className="flex items-center gap-4 @desktop:gap-6">
         <strong className="font-semibold">{index}</strong>
         <div className="flex items-center gap-4 @desktop:items-center">
